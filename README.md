@@ -26,8 +26,10 @@ ERNIE_Chinese: http://image.nghuyong.top/ERNIE.zip
 基于https://github.com/649453932/Bert-Chinese-Text-Classification-Pytorch项目的实验代码，更换数据集。
 
 ## 四、实验结果
-模型	acc	备注
-bert	99.93%	单纯的bert
-ERNIE	99.90%	ERNIE 是词汇级别的，在常见的中文处理任务上效果更优。
-bert_CNN	99.89%	bert 作为Embedding 层，接入三种卷积核的CNN。
+	
+模型|acc|备注
+--|--|--
+bert|99.93%|单纯的bert
+ERNIE|99.89%|ERNIE 是词汇级别的，在常见的中文处理任务上效果更优。  
+bert_CNN|99.89%|bert 作为Embedding 层，接入三种卷积核的CNN。
 
