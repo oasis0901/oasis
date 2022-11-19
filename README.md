@@ -9,7 +9,7 @@ https://sites.google.com/site/xdguoxue/Home/guo-xue-jing-dian-quan-wen/jingshizi
 bert_Chinese: https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-chinese.tar.gz
 ERNIE_Chinese: http://image.nghuyong.top/ERNIE.zip
 三、实验代码
-基于https://github.com/649453932/Bert-Chinese-Text-Classification-Pytorch项目的实验代码，更换数据集。（参考了钟雨玮同学中实验报告的注意事项）
+基于https://github.com/649453932/Bert-Chinese-Text-Classification-Pytorch项目的实验代码，更换数据集。
 四、实验结果
 模型	acc	备注
 bert	99.93%	单纯的bert
