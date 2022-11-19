@@ -1,5 +1,5 @@
 # oasis
-##一、数据预处理
+## 一、数据预处理
 （1）韵文
 
 https://github.com/Werneror/Poetry 
@@ -13,7 +13,7 @@ https://sites.google.com/site/xdguoxue/Home/guo-xue-jing-dian-quan-wen/jingshizi
 
 经史子集——四部全文。爬虫获取语料约10 万条，抽取训练集约9 万条，验证集5000 条，测试集5000 条。
 
-##二、预训练模型
+## 二、预训练模型
 
 本次实验预训练模型：
 
@@ -21,11 +21,11 @@ bert_Chinese: https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-chin
 
 ERNIE_Chinese: http://image.nghuyong.top/ERNIE.zip
 
-##三、实验代码
+## 三、实验代码
 
 基于https://github.com/649453932/Bert-Chinese-Text-Classification-Pytorch项目的实验代码，更换数据集。
 
-##四、实验结果
+## 四、实验结果
 模型	acc	备注
 bert	99.93%	单纯的bert
 ERNIE	99.90%	ERNIE 是词汇级别的，在常见的中文处理任务上效果更优。
